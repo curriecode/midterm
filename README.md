@@ -37,19 +37,27 @@ Mapplication is a single-page map based web application. It allows users to crea
 
 
 ## Getting Started
-Simply click [here](https://mappifyy.herokuapp.com/login/4)
+The project is deployed for use here [here](https://mappifyy.herokuapp.com/login/4)
 
-or to run project locally ...
+This project requires the following dependencies on your development machine: 
+```
+~> node --version
+v8.9.4
+~> npm --version
+6.13.4
+~> psql --version
+psql (PostgreSQL) 9.5.19
+```
 
+After you have installed the dependencies you can get started by:
 1. Clone this repository.
-2. Install dependencies using the `npm install` command.
-
-3. Connect to `psql` in the terminal and create tables by running command `\i db/schema/midterm.sql`  and create test users by running `\i db/seeds/01_users.sql`
-      - Not sure how to set up a database ?  See, [postgres docs](https://www.postgresql.org/docs/)
+2. Install node packages using the `npm install` command.
+3. Connect to posgres using `psql` in the terminal. Create tables by running `\i db/schema/midterm.sql`  and create test users by running `\i db/seeds/01_users.sql`
+    - Not sure how to set up a database ?  See, [postgres docs](https://www.postgresql.org/docs/)
    
-4. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
+4. Start the web server using the `npm run local` command.
 
-5. Go to <http://localhost:8080/> in your browser.
+5. The app will be served at <http://localhost:8080/> in your browser.
 
 ## Dependencies
     body-parser: ^1.19.0
