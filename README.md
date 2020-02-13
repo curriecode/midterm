@@ -37,7 +37,7 @@ Mapplication is a single-page map based web application. It allows users to crea
 
 
 ## Getting Started
-The project is deployed for use here [here](https://mappifyy.herokuapp.com/login/4)
+You can see a final deployed version [here](https://mappifyy.herokuapp.com/login/4)
 
 This project requires the following dependencies on your development machine: 
 ```
